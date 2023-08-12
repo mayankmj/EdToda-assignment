@@ -1,0 +1,67 @@
+.Header-parent{
+    /* background-color: #000000; */
+}
+.logo-image{
+    padding-left: 100px;
+}
+.header-details{
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo{
+    padding-top: 10px;
+    height: 45px;
+    width: 158px;
+    padding-bottom: 3px;
+}
+.header-details-left{
+    display: flex;
+    gap:60px;
+}
+.header-courses{
+    display: flex;
+    gap: 60px;
+}
+.header-courses-1{
+    display: flex;
+}
+.header-courses-1 img{
+    height: 30px;
+    padding-top: 19px;
+    cursor: pointer;
+}
+
+.header-details-right{
+    display: flex;
+    gap:60px;
+}
+.search-icon{
+    height: 30px;
+    padding-top: 19px;
+}
+.header-details-right p{
+    font-size: 20px;
+}
+.header-details-right .btn-class{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+
+
+
+.btn-class {
+ background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 52px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 150px;
+  height: 40px;
+}
+
+.btn-class:hover {
+  background-color: #352b6b; /* Darker shade of blue on hover */
+}
